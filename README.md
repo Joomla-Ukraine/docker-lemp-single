@@ -9,6 +9,7 @@
 3. Логін для бази даних _root_. Пароль: _root_. Змінити пароль можна у файлі `docker-compose.yml` в налаштуваннях `MYSQL_ROOT_PASSWORD`
 4. Запускаємо сайт, набравши в браузері `localhost`
 5. phpmyadmin запускаємо через `localhost:8099`
+6. mailhog запускаємо через `localhost:8025` для перегляду листів, а `localhost:1025` для відправки через SMTP. Більш детальніше читайте тут: https://github.com/mailhog/MailHog
 
 ### Запуск Docker-контейнера
 
